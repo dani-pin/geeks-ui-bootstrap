@@ -1,0 +1,119 @@
+:root {
+    --purple: #754ffe;
+    --gray: #64748b;
+    --lightGray: #f1f5f9;
+    --darkBlue: #0f172a;
+    --darkPurple: #6343d8;
+}
+
+.dropdown-toggle.no-arrow::after {
+    display: none;
+}
+
+.navbar .dropdown-menu {
+    box-shadow: 0 10px 30px 0 rgba(31, 45, 61, .26);
+    min-width: 12rem;
+}
+
+.navbar .dropdown-menu-md {
+    min-width: 17rem;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: var(--purple);
+
+}
+
+.nav-link:hover,
+.be-purple:hover {
+    color: var(--purple);
+}
+
+.nav-item.dropdown>.dropdown-menu {
+    display: none;
+}
+
+.nav-item.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropend.dropdown-option:hover {
+    color: var(--purple);
+    background-color: #f8f9fa;
+    padding: 0.5rem 0;
+}
+
+.second-dropdown-menu {
+    top: 0;
+    left: 98%
+}
+
+.buy-button:hover {
+    background-color: var(--darkPurple);
+}
+
+/* utilities: */
+
+.bg-purple {
+    background-color: var(--purple);
+}
+
+.bg-gray {
+    background-color: var(--gray);
+}
+
+.bg-light-gray {
+    background-color: var(--lightGray);
+}
+
+.bg-dark-blue {
+    background-color: var(--darkBlue);
+}
+
+.bg-dark-purple {
+    background-color: var(--darkPurple);
+}
+
+.color-purple {
+    color: var(--purple);
+}
+
+.color-gray {
+    color: var(--gray);
+}
+
+.color-light-gray {
+    color: var(--lightGray);
+}
+
+.color-dark-blue {
+    color: var(--darkBlue);
+}
+
+.color-dark-purple {
+    color: var(--darkPurple);
+}
+
+.fs-7 {
+    font-size: 0.875rem;
+}
+
+.fs-8 {
+    font-size: 0.75rem;
+}
+
+.fs-9 {
+    font-size: 0.6875rem;
+}
+
+.fs-10 {
+    font-size: 0.6rem;
+}
+
+.inter-font-family {
+    font-family: "Inter", sans-serif;
+}
+
+.letter-spacing-1 {
+    letter-spacing: 1px;
+}
