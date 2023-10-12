@@ -7,6 +7,7 @@
     --whte: #ffffff;
     --blurBlue: #272e3f;
     --darkOrange: #f59e0b;
+    --lightPurple: #e3dcff;
 }
 
 body {
@@ -113,6 +114,10 @@ body {
     background-color: var(--darkOrange);
 }
 
+.bg-light-purple {
+    background-color: var(--lightPurple);
+}
+
 .color-purple {
     color: var(--purple);
 }
@@ -135,6 +140,10 @@ body {
 
 .color-orange {
     color: var(--darkOrange);
+}
+
+.color-light-purple {
+    color: var(--lightPurple);
 }
 
 .border-gray {
@@ -173,4 +182,10 @@ body {
 
 .display-7 {
     font-size: 2.9rem;
+}
+
+.icon {
+    height: 3rem;
+    line-height: 3rem;
+    width: 3rem;
 }
