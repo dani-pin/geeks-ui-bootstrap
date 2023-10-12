@@ -4,6 +4,13 @@
     --lightGray: #f1f5f9;
     --darkBlue: #0f172a;
     --darkPurple: #6343d8;
+    --whte: #ffffff;
+    --blurBlue: #272e3f;
+    --darkOrange: #f59e0b;
+}
+
+body {
+    background-color: rgba(var(--white));
 }
 
 .dropdown-toggle.no-arrow::after {
@@ -52,6 +59,34 @@
     background-color: var(--darkPurple);
 }
 
+.smooth-shadow-md {
+    box-shadow: 0 3px 2px rgba(3, 0, 71, .02), 0 3px 6px rgba(3, 0, 71, .04), 0 5px 8px rgba(3, 0, 71, .06), 0 15px 20px rgba(3, 0, 71, .1);
+}
+
+.be-blur-blue:hover {
+    background-color: var(--blurBlue);
+    border: solid 1px var(--blurBlue);
+}
+
+.be-bg-light-gray:hover {
+    background-color: var(--lightGray) !important;
+    border: solid 1px var(--gray) !important;
+}
+
+.be-text-gray:hover {
+    color: var(--gray);
+}
+
+.img-container-ms {
+    margin-left: 112px;
+}
+
+.hero-img {
+    background-image: url(./images/hero-gradient-1.svg);
+    box-sizing: border-box;
+    background-position: top 90px right 250px;
+}
+
 /* utilities: */
 
 .bg-purple {
@@ -74,6 +109,10 @@
     background-color: var(--darkPurple);
 }
 
+.bg-orange {
+    background-color: var(--darkOrange);
+}
+
 .color-purple {
     color: var(--purple);
 }
@@ -92,6 +131,20 @@
 
 .color-dark-purple {
     color: var(--darkPurple);
+}
+
+.color-orange {
+    color: var(--darkOrange);
+}
+
+.border-gray {
+    border-color: var(--gray);
+    border-style: solid;
+}
+
+.border-dark-blue {
+    border-color: var(--darkBlue);
+    border-style: solid;
 }
 
 .fs-7 {
@@ -116,4 +169,8 @@
 
 .letter-spacing-1 {
     letter-spacing: 1px;
+}
+
+.display-7 {
+    font-size: 2.9rem;
 }
