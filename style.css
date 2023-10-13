@@ -8,6 +8,8 @@
     --blurBlue: #272e3f;
     --darkOrange: #f59e0b;
     --lightPurple: #e3dcff;
+    --gray2: #e2e8f0;
+    --gray3: #d4d4dd;
 }
 
 body {
@@ -74,6 +76,11 @@ body {
     border: solid 1px var(--gray) !important;
 }
 
+.be-border-light-gray:hover {
+    background-color: var(--lightGray) !important;
+    border: solid 1px var(--gray) !important;
+}
+
 .be-text-gray:hover {
     color: var(--gray);
 }
@@ -84,9 +91,17 @@ body {
 
 .hero-img {
     background-image: url(./images/hero-gradient-1.svg);
-    box-sizing: border-box;
     background-position: top 90px right 250px;
 }
+
+.card .showcase-img {
+    transition: transform 150ms ease-in-out;
+}
+
+.card .showcase-img:hover {
+    transform: scale(1.02);
+}
+
 
 /* utilities: */
 
@@ -151,6 +166,20 @@ body {
     border-style: solid;
 }
 
+.border-bottom-gray3 {
+    border-bottom: 1px solid var(--gray3);
+}
+
+.border-gray3 {
+    border-color: var(--gray3);
+    border-style: solid;
+}
+
+.border-gray2 {
+    border-color: var(--gray2);
+    border-style: solid;
+}
+
 .border-dark-blue {
     border-color: var(--darkBlue);
     border-style: solid;
@@ -188,4 +217,8 @@ body {
     height: 3rem;
     line-height: 3rem;
     width: 3rem;
+}
+
+.mt-minus-55px {
+    margin-top: -55px;
 }
