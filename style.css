@@ -102,6 +102,9 @@ body {
     transform: scale(1.02);
 }
 
+.component-section {
+    height: 100vh;
+}
 
 /* utilities: */
 
