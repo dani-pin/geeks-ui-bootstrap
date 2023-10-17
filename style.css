@@ -10,6 +10,7 @@
     --lightPurple: #e3dcff;
     --gray2: #e2e8f0;
     --gray3: #d4d4dd;
+    --gray4: #94a3b8;
 }
 
 body {
@@ -106,6 +107,10 @@ body {
     min-height: 100vh;
 }
 
+.rocket-img {
+    margin-bottom: -90px;
+}
+
 /* utilities: */
 
 .bg-purple {
@@ -162,6 +167,10 @@ body {
 
 .color-light-purple {
     color: var(--lightPurple);
+}
+
+.color-gray4 {
+    color: var(--gray4);
 }
 
 .border-gray {
