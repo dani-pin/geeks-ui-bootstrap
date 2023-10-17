@@ -111,6 +111,10 @@ body {
     margin-bottom: -90px;
 }
 
+.footer-li:hover {
+    color: var(--purple);
+}
+
 /* utilities: */
 
 .bg-purple {
@@ -233,4 +237,8 @@ body {
 
 .mt-minus-55px {
     margin-top: -55px;
+}
+
+.mx-250px {
+    margin: 0px 250px;
 }
